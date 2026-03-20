@@ -89,6 +89,7 @@ Dock.Fire("MyEvent")
 - Jump support is planned for v2.
 - Group tagging and context switching are planned for v2.
 
+Known limitations will be addressed in future releases.
 ---
 
 ## Contributing
