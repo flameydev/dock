@@ -90,6 +90,7 @@ Dock.Fire("MyEvent")
 - Group tagging and context switching are planned for v2.
 
 Known limitations will be addressed in future releases.
+
 ---
 
 ## Contributing
