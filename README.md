@@ -127,5 +127,9 @@ Known limitations will be addressed in future releases.
 
 ---
 
-## Contributing
+## Contributing & Support
 Contributions are more than welcome! If you've got a feature idea or bug fix, open an issue or pull request. I will try my best to look at all of them!
+
+If you seek help or support with anything related to Dock, feel free to ask in the Discord server linked below. (under construction)
+
+Link: https://discord.gg/a6r8uGDQqw
