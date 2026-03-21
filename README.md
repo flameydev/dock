@@ -3,8 +3,8 @@ A clean, centralized input handler for Roblox — built on top of UserInputServi
 Instead of scattering input listeners across your project, Dock gives you one place to register and manage all your input reactions.
 
 ## Why Dock?
-Dock manages to do pretty much everything UserInputService can, just cleaner, more readable, and some extra features!
-Below is a comparison, detecting when the user presses R, using Dock and UserInputService
+Dock manages to do pretty much everything UserInputService can, just cleaner, more readable, and with some extra features.
+Below is a comparison of the same behavior implemented using Dock and UserInputService.
 
 ```lua
 -- Using Dock:
@@ -39,12 +39,12 @@ Binds a callback to a single key.
 ```lua
 -- Fires when E is released
 Dock.Bind(Enum.KeyCode.E, function()
-    print("E pressed")
+    print("E was released!")
 end)
 
 -- Fires immediately when Space is pressed, with a custom ID
 Dock.Bind(Enum.KeyCode.Space, function()
-    print("Space down")
+    print("Space was pressed!")
 end, "began", "Jump")
 ```
 
@@ -55,7 +55,7 @@ Fires when all keys in the table are held simultaneously.
 - `id` — optional string ID for later reference. Auto-assigned if not provided.
 ```lua
 Dock.BindChord({Enum.KeyCode.LeftShift, Enum.KeyCode.F}, function()
-    print("Shift+F!")
+    print("Shift and F were pressed simultaneously!")
 end, "SprintAttack")
 ```
 
@@ -66,7 +66,7 @@ Fires only if a key is held for at least `duration` seconds.
 - `id` — optional string ID for later reference. Auto-assigned if not provided.
 ```lua
 Dock.BindHold(Enum.KeyCode.G, 1.5, function()
-    print("G held for 1.5 seconds")
+    print("G was held for 1.5 seconds")
 end, "ChargeAttack")
 ```
 
@@ -77,7 +77,7 @@ Binds a callback to a ClickDetector. Safely replaces any existing bind on the sa
 - `id` — optional string ID for later reference. Auto-assigned if not provided.
 ```lua
 Dock.BindClickDetector(workspace.Part.ClickDetector, function()
-    print("Part clicked!")
+    print("Part was clicked!")
 end, "DoorClick")
 ```
 
