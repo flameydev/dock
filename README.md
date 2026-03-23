@@ -120,16 +120,15 @@ Dock.Unbind("SprintAttack", "chordBinds")
 ---
 
 ## Known Limitations
-- Jump support is planned for v3.
-- Group tagging and context switching are planned for v3.
-
-Known limitations will be addressed in future releases.
+- No method to receive all inputs from a client.
+- No error handling.
+- Input Binds for instances in Workspace are limited to ClickDetectors only.
 
 ---
 
 ## Contributing & Support
-Contributions are more than welcome! If you've got a feature idea or bug fix, open an issue or pull request. I will try my best to look at all of them!
+Contributions are more than welcome! If you've got a feature idea or a bug fix, open an issue or pull request. I will try my best to look at all of them.
 
-If you seek help or support with anything related to Dock, feel free to ask in the Discord server linked below. (under construction)
+If you need support with anything related to Dock, feel free to ask in the Discord server linked below. (under construction)
 
 Link: https://discord.gg/a6r8uGDQqw
