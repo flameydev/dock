@@ -129,6 +129,6 @@ Dock.Unbind("SprintAttack", "chordBinds")
 ## Contributing & Support
 Contributions are more than welcome! If you've got a feature idea or a bug fix, open an issue or pull request. I will try my best to look at all of them.
 
-If you need support with anything related to Dock, feel free to ask in the Discord server linked below. (under construction at the moment)
+If you need support with anything related to Dock, feel free to ask in the Discord server linked below. You can DM me on Discord for the latest beta version of Dock (under construction at the moment)
 
 Link: https://discord.gg/a6r8uGDQqw
