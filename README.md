@@ -27,6 +27,7 @@ Copy `Dock.luau` into your project, then require it wherever you need to detect 
 ```lua
 local Dock = require(path.to.Dock)
 ```
+You can also download the RBXM file directly and insert it into your project.
 
 ---
 
