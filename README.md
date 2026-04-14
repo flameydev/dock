@@ -1,7 +1,9 @@
 <p align="center">
   <img src="Dock Icon.png" width="60%" alt="Dock Logo">
 </p>
+
 # Dock
+
 A clean, centralized input handler for Roblox — built on top of UserInputService.
 Instead of scattering input listeners across your project, Dock gives you one place to register and manage all your input reactions.
 
